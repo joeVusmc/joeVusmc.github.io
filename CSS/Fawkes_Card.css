@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'lumoscaps';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/lumos-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/lumos-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mustnotlie';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/djb_chicken_skratchez-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/djb_chicken_skratchez-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'harry';
+    src: url('https://joevusmc.github.io/joevusmc.github.io/Fonts/harryp__-webfont.woff2') format('woff2'),
+         url('https://joevusmc.github.io/joevusmc.github.io/Fonts/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html {
+    display: table;
+    margin: 10px auto;
+
+}
+
+.container {
+  background-image: url(https://img00.deviantart.net/2587/i/2015/254/0/3/harry_potter_wallpaper__gryffindor_stripes_by_theladyavatar-d5z2f66.jpg);
+  width: 345px;
+  background-repeat: repeat;
+  background-attachment:scroll;
+  display: table-cell;
+  vertical-align: middle;
+  /* padding: 0px 0px 0px 25px; */
+
+
+}
+
+.container2 {
+  margin: 20px auto;
+  width: 320px;
+}
+.container3 {
+
+  /* margin: 0px auto; */
+  /* width: 345px; */
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'lumoscaps';
+  text-shadow: 6px 6px 4px #000;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+ .mine {
+  vertical-align: middle;
+  hyphens: auto;
+  display: block;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-style: ridge;
+  border-width: 6px;
+  border-color: #cd9c22;
+  width: 230px;
+  word-break: break-word;
+  font-family: 'mustnotlie';
+  color: #fff;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=852202ff&noise=050305&density=37&opacity=50);
+  border-radius: 80px;
+  text-align: left;
+  box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+  text-shadow: 6px 6px 4px #000;
+  font-size: 12px;
+
+}
+
+.mine:hover {
+
+  background: rgba(153, 0, 0, 0.6);
+
+}
+
+ .myh3 {
+    text-align: center;
+    -webkit-text-stroke: .2px black;
+    font-size: 65px;
+    text-shadow: 5px 8px 20px #ba0404;
+    color: #cc8701;
+    box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+    border-radius: 100px;
+    border-image: url(https://vignette.wikia.nocookie.net/vsbattles/images/d/d8/Sparkling.gif/revision/latest?cb=20170530104125);
+    font-family: 'harry';
+    border: ridge 5px;
+    border-color: #fff;
+    width: 280px;
+    padding: 15px;
+
+    margin: 10px 0;
+    margin-bottom: 20px;
+
+}
+.myh3:hover {
+  background: rgba(153, 0, 0, 0.4);
+}
+img {
+  border-style: ridge;
+  border-width: 8px;
+  border-color: #cd9c22;
+  border-radius: 10px;
+  background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=852202ff&noise=050305&density=37&opacity=50);
+  box-shadow: -2px 14px 79px 15px rgba(0,0,0,0.75);
+}
+
+/* color pallete:
+Gryffindor: 690001 deep red
+            690001 brighter red
+            ecb12b brighter yellow
+            cd9c22 mustard yellow
+            000000 Black
+
+ */
+
+ @-webkit-keyframes glow {
+     to {
+          border-color: #ffc703;
+     -webkit-box-shadow: 0 0 5px #ffc703;
+        -moz-box-shadow: 0 0 5px #ffc703;
+             box-shadow: 0 0 5px #ffc703;
+     }
+ }
+ul {
+  list-style-type: none;
+
+}
+span {
+  font-family: 'lumoscaps';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #cc8701;
+}
+li {
+  text-align: left;
+  padding: 0px;
+  font-size: 10px;
+
+}
+
+.Label {
+  font-size: 15px;
+}
+
+ .myGlower {
+     /* background-color: rgba(#7c5900, 0.99); */
+     /* border: 1px solid ridge;
+     border-radius: 100px; */
+     -webkit-animation: glow 3s infinite alternate;
+      -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+        -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+             transition: border 1.0s linear, box-shadow 1.0s linear;
+     /* width: 100px;*/
+     height: 120px;
+     /* margin: 50px; */
+ }
+ .myGlowerhover:hover {
+     /* background-color: rgba(#7c5900, 0.99); */
+     /* border: 1px solid ridge;
+     border-radius: 100px; */
+     -webkit-animation: glow 2.0s infinite alternate;
+      -webkit-transition: border 1.0s linear, box-shadow 1.0s linear;
+        -moz-transition: border 1.0s linear, box-shadow 1.0s linear;
+             transition: border 1.0s linear, box-shadow 1.0s linear;
+     /* width: 100px;*/
+     /* height: 120px; */
+     /* margin: 50px; */
+ }
+#magic {
+  line-height: 1;
+}
+
+#citation {
+  font-family: 'harry';
+
+}
+
+
+
+/* I WOULD LIKE TO MAKE THIS WORK FOR MAGIC TEXT TO APPEAR UPON HOVER */
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+
+</body>
+</html> */
